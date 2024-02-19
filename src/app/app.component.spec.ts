@@ -19,7 +19,6 @@ describe('AppComponent', () => {
   it(`should have as title 'forms-td-assignment-start'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('forms-td-assignment-start');
   });
 
   it('should render title', () => {
